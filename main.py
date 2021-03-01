@@ -97,7 +97,7 @@ class MyWidg(QMainWindow):
 class MyWidget(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('coffee.ui', self)
+        uic.loadUi('main.ui', self)
 
         self.flag = 0
 
